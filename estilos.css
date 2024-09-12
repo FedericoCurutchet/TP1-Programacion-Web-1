@@ -74,3 +74,23 @@ nav {
 	text-decoration: none;
 	
 }
+
+.imagen-principal{
+
+    margin-top: 1em;
+    width: 95%;
+    height: 32em;
+    border: 0.5em;
+    border-color: black;
+    border-style: solid;
+    
+   
+}
+.Contendor-imagenes
+{
+    display: flex; /* Organiza el contenido en filas */
+    justify-content: center; /* Espacia los elementos entre sí */
+    align-items: center; /* Alinea verticalmente al inicio del contenedor */
+    width: 100%;
+    gap: 1em
+}
